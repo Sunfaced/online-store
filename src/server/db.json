@@ -1,0 +1,88 @@
+{
+    "goods": [
+        {
+            "id": 1,
+            "price": 1000,
+            "name": "Краска Wallquest MS1",
+            "image": "/src/images/blackAndGreen.png",
+            "isNew": false,
+            "isStock": true,
+            "isContract": true,
+            "isExclusive": false,
+            "isSale": false,
+            "isPopular": false,
+            "quantity": 5,
+            "countInCart" : 0
+        },
+        {
+            "id": 2,
+            "price": 2000,
+            "name": "Краска Wallquest MS2",
+            "image": "/src/images/blue.png",
+            "isNew": false,
+            "isStock": true,
+            "isContract": false,
+            "isExclusive": true,
+            "isSale": false,
+            "isPopular": true,
+            "quantity": 7,
+            "countInCart" : 0
+        },
+        {
+            "id": 3,
+            "price": 3000,
+            "name": "Краска Wallquest MS3",
+            "image": "/src/images/brown.png",
+            "isNew": false,
+            "isStock": false,
+            "isContract": true,
+            "isExclusive": false,
+            "isSale": true,
+            "isPopular": true,
+            "quantity": 10,
+            "countInCart" : 0
+        },
+        {
+            "id": 4,
+            "price": 4000,
+            "name": "Краска Wallquest MS4",
+            "image": "/src/images/green1.png",
+            "isNew": false,
+            "isStock": true,
+            "isContract": false,
+            "isExclusive": true,
+            "isSale": false,
+            "isPopular": true,
+            "quantity": 3,
+            "countInCart" : 0
+        },
+        {
+            "id": 5,
+            "price": 5000,
+            "name": "Краска Wallquest MS5",
+            "image": "/src/images/green2.png",
+            "isNew": false,
+            "isStock": false,
+            "isContract": true,
+            "isExclusive": false,
+            "isSale": true,
+            "isPopular": false,
+            "quantity": 12,
+            "countInCart" : 0
+        },
+        {
+            "id": 6,
+            "price": 6000,
+            "name": "Краска Wallquest MS6",
+            "image": "/src/images/red.png",
+            "isNew": true,
+            "isStock": true,
+            "isContract": false,
+            "isExclusive": true,
+            "isSale": false,
+            "isPopular": false,
+            "quantity": 9,
+            "countInCart" : 0
+        }
+    ]
+}

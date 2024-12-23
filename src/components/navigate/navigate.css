@@ -1,0 +1,91 @@
+.nav__area {
+  height: 104px;
+  display: flex;
+  align-items: center;
+}
+
+.nav__menu {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__img {
+  width: 131px;
+  height: 26px;
+  margin-left: 64px;
+}
+
+.menu__list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
+}
+
+.menu__item {
+  margin: 45px 12px;
+}
+
+.menu__item:last-child {
+  margin-right: 50px;
+}
+
+.nav__contacts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 960px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+}
+
+.contacts__item {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+}
+
+.contacts:last-child {
+  margin-right: 64px;
+}
+
+/* .contacts__item {
+  align-items: center;
+} */
+
+.contacts__shopping {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #7bb899;
+  border: none;
+}
+
+.phone__contact {
+  margin: 36px 116px 36px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.phone {
+  color: #1f2020;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 2%;
+}
+
+.call {
+  color: #1f2020;
+  opacity: 30%;
+}

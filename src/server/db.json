@@ -4,7 +4,7 @@
             "id": 1,
             "price": 1000,
             "name": "Краска Wallquest MS1",
-            "image": "/online-store/src/images/blackAndGreen.png",
+            "image": "/images/blackAndGreen.png",
             "isNew": false,
             "isStock": true,
             "isContract": true,

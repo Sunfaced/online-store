@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./header.css";
-import wallpaper from "./../../images/wallpaper.png";
-import prevImg from "./../../images/prevImg.svg";
-import nextImg from "./../../images/nextImg.svg";
-import background from "./../../images/background.jpg";
-import slidePanel from "./../../images/slidePanel.svg";
+import wallpaper from "./../../public/images/wallpaper.png"
+import prevImg from "./../../public/images/prevImg.svg"
+import nextImg from "./../../public/images/nextImg.svg";
+import background from "./../../public/images/background.jpg";
+import slidePanel from "./../../public/images/slidePanel.svg";
 
 const images = ["image1", "image2"];
 
@@ -69,7 +69,6 @@ const Header = () => {
             <img className="nexImg" src={nextImg} alt="" />
           </button>
           <div className="slider">
-            {/* <img src={slidePanel} alt="" /> */}
           </div>
         </div>
       </div>

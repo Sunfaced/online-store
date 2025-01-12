@@ -4,7 +4,7 @@
             "id": 1,
             "price": 1000,
             "name": "Краска Wallquest MS1",
-            "image": "/online-store/public/images/blackAndGreen.png",
+            "image": "https://Sunfaced.github.io/online-store/images/image1.png",
             "isNew": false,
             "isStock": true,
             "isContract": true,

@@ -62,6 +62,7 @@ const GoodsList = ({ filters }) => {
   const [parentState, setParentState] = useState("Сначала дорогие");
 
   const handleChildStateChange = (newState) => {
+    debugger;
     setParentState(newState);
   };
 

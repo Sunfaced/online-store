@@ -1,5 +1,13 @@
 .footer__inner {
-  height: 320px;
+  height: 200px;
   background-color: #000000;
+  color: #fff;
   margin-top: 157px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 16px;
 }

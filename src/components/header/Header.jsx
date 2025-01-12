@@ -69,7 +69,7 @@ const Header = () => {
             <img className="nexImg" src={nextImg} alt="" />
           </button>
           <div className="slider">
-            <img src={slidePanel} alt="" />
+            {/* <img src={slidePanel} alt="" /> */}
           </div>
         </div>
       </div>

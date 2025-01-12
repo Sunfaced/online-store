@@ -72,10 +72,6 @@ const GoodsList = ({ filters }) => {
 
   const { addToCart } = useCart();
 
-  // const handleAddToCart = (item) => {
-  //   // item.countInCart = toCard[item.id] ? toCard[item.id] + 1 : 1
-  //   // addToCart(item);
-  // };
 
   const renderContent = () => {
     const filteredGoods = goods.filter((item) => {
@@ -127,7 +123,7 @@ const GoodsList = ({ filters }) => {
           <ul className="goods__list">
             {filteredGoods.map((item) => (
               <li key={item.id} className="goods__item">
-                <img className="goods__img" src={item.image} alt="" />
+                <img className="goods__img" src={item.image} alt={item.name} />
                 <h3 className="goods__name">{item.name}</h3>
                 <p className="goods__price">{item.price + " р"}</p>
                 <div className="goods__item-props">

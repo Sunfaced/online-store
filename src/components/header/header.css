@@ -6,16 +6,12 @@
 }
 
 .image1 {
-  background-image: url(../../images/wallpaper.png);
+  background-image: url(../../public/images/wallpaper.png);
 }
 
 .image2 {
-  background-image: url(../../images/background.jpg);
+  background-image: url(../../public/images/background.jpg);
 }
-
-/* .image3 {
-  background-image: url(../../images/black.jpg);
-} */
 
 .header__list {
   display: flex;

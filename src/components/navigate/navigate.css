@@ -89,3 +89,30 @@
   color: #1f2020;
   opacity: 30%;
 }
+
+@media (max-width: 1391px) {
+  .menu__list {
+    gap: 0px;
+  }
+  .phone__contact {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .menu__item {
+    margin: 45px 5px;
+  }
+}
+
+@media (max-width: 1137px) {
+  .phone {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1122px) {
+  .menu__list {
+    padding-left: 5px;
+  }
+}

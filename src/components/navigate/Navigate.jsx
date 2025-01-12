@@ -1,9 +1,9 @@
 import "./navigate.css";
-import logo from "./../../public/images/logo.svg";
-import search from "./../../public/images/search.svg";
-import profile from "./../../public/images/profile.svg";
-import heart from "./../../public/images/heart.svg";
-import basket from "./../../public/images/basket.svg";
+import logo from "./../../../public/images/logo.svg";
+import search from "./../../../public/images/search.svg";
+import profile from "./../../../public/images/profile.svg";
+import heart from "./../../../public/images/heart.svg";
+import basket from "./../../../public/images/basket.svg";
 import ShoppingCart from "./shoppingCart/ShoppingCart";
 
 const Navigate = () => {

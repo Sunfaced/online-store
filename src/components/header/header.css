@@ -6,11 +6,11 @@
 }
 
 .image1 {
-  background-image: url(../../public/images/wallpaper.png);
+  background-image: url(../../../public/images/wallpaper.png);
 }
 
 .image2 {
-  background-image: url(../../public/images/background.jpg);
+  background-image: url(../../../public/images/background.jpg);
 }
 
 .header__list {

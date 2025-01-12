@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./header.css";
-import wallpaper from "./../../public/images/wallpaper.png"
-import prevImg from "./../../public/images/prevImg.svg"
-import nextImg from "./../../public/images/nextImg.svg";
-import background from "./../../public/images/background.jpg";
+import wallpaper from "./../../../public/images/wallpaper.png"
+import prevImg from "./../../../public/images/prevImg.svg"
+import nextImg from "./../../../public/images/nextImg.svg";
+import background from "./../../../public/images/background.jpg";
 
 const images = ["image1", "image2"];
 

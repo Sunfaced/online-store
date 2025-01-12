@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useCart } from "./CartContext";
 import "./shoppingCart.css";
-import cross from "./../../../public/images/x.png";
+import cross from "./../../../../public/images/x.png";
 
 const ShoppingCart = () => {
   const [isVisible, setVisibility] = useState(false);
